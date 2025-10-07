@@ -4,8 +4,8 @@
    vars:
      ami_id: ami-09c813fb71547fc4f
      sg_id: sg-05d71202ec003d594
-     zone_id: Z05052331V4VEGNQW2KX2
-     domain_name: daws86s.shop
+     zone_id: "Z05052331V4VEGNQW2KX2"
+     domain_name: "daws86s.shop"
      instances:
      - mongodb
    tasks: 

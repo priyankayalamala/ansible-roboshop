@@ -6,8 +6,8 @@
      sg_id: sg-05d71202ec003d594
      zone_id: "Z05052331V4VEGNQW2KX2"
      domain_name: "daws86s.shop"
-     instances:
-     - rabbitmq
+    #  instances:
+    #  - rabbitmq
    tasks: 
    - name: create ec2 instance
      amazon.aws.ec2_instance:

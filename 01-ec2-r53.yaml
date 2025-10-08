@@ -7,7 +7,7 @@
      zone_id: "Z05052331V4VEGNQW2KX2"
      domain_name: "daws86s.shop"
      instances:
-     - redis
+     - rabbitmq
    tasks: 
    - name: create ec2 instance
      amazon.aws.ec2_instance:
